@@ -1,0 +1,154 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+
+
+    --brand-color: #2f303a;
+    --second-color: #757575;
+    --accent-color: rgba(255, 255, 255, 0.6);
+    --team-color: #f5f4fa;
+}
+
+/* =====================================================HEADER===================================================== */
+
+.header-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+
+}
+
+.header-link:hover {
+    color: #2196f3;
+}
+
+/* =====================================================MAIN======================================================= */
+
+.small {
+    background-color: var(--brand-color);
+}
+
+.small-title {
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+.small-btn {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+    border-radius: 4px var(--brand-color);
+width: 216px;
+height: 50px;
+background-color: #2196f3;;
+}
+
+.work-caption {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:  #212121;;
+}
+
+.work-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+.aside-caption {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.team {
+    background-color: var(--team-color);
+}
+
+.team-caption {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.team-item {
+    background-color: #fff;;
+}
+
+
+.taem-name{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.team-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+}
+
+/* =====================================================FOOTER===================================================== */
+
+.footer {
+    background-color: var(--brand-color);
+}
+
+.ftr-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+}
+
+.ftr-href {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+text-decoration: none;
+}
+
+.ftr-href:hover {
+    color: #2196f3;
+}
+
+ul {
+    list-style: none;
+}
+
