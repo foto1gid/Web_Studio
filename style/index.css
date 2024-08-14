@@ -9,7 +9,40 @@
     --team-color: #f5f4fa;
 }
 
+.container {
+    width: 1200px;
+    padding: 0  15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
 /* =====================================================HEADER===================================================== */
+
+.hero {
+    display: flex;
+    flex-wrap:space-around;
+
+}
+
+.header-logo {
+    padding: 24 ;
+}
+
+.header-items {
+    display: flex;
+    flex-wrap:space-around;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 100px;
+
+
+}
+
 
 .header-link {
     font-family: var(--font-family);
@@ -18,7 +51,6 @@
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
-
 }
 
 .header-link:hover {
@@ -29,6 +61,8 @@
 
 .small {
     background-color: var(--brand-color);
+    display: flex;
+   
 }
 
 .small-title {
@@ -38,8 +72,11 @@ font-size: 44px;
 line-height: 136%;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-text-align: center;
+justify-content: center;
 color: #fff;
+
+
+
 }
 
 .small-btn {
@@ -48,12 +85,15 @@ font-weight: 700;
 font-size: 16px;
 line-height: 187%;
 letter-spacing: 0.06em;
-text-align: center;
+
 color: #fff;
     border-radius: 4px var(--brand-color);
 width: 216px;
 height: 50px;
-background-color: #2196f3;;
+background-color: #2196f3;
+
+
+text-align: center;
 }
 
 .work-caption {
